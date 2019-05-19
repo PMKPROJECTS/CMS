@@ -1,9 +1,18 @@
+<<<<<<< HEAD
 <?php  include "includes/admin_header.php";?>
+=======
+<?php  include "includes/header.php";?>
+
+>>>>>>> 9c2b4a7d3f3db2da7b2e1c2ae17e100f75f8348f
     <div id="wrapper">
 
         <!-- Navigation -->
         
+<<<<<<< HEAD
         <?php  include "includes/admin_navigation.php";?>
+=======
+        <?php  include "includes/navigation.php";?>
+>>>>>>> 9c2b4a7d3f3db2da7b2e1c2ae17e100f75f8348f
 
     
        
@@ -19,10 +28,16 @@
                             Welcome to admin
                             <small>Author name</small>
                         </h1>
+<<<<<<< HEAD
 <!--                        add categories form-->
                         <div class="col-xs-6">
                        <?php  insert_categories();  ?>
                         <form action="" method="POST">
+=======
+                        
+                        <div class="col-xs-6">
+                        <form action="">
+>>>>>>> 9c2b4a7d3f3db2da7b2e1c2ae17e100f75f8348f
                            <label for="cat-title">Add Category</label>
                             <div class="form-group">
                                 <input type="text" class="form-control" name="cat_title">
@@ -31,6 +46,7 @@
                                 <input class="btn btn-primary" type="submit" name="submit" value="Add Category">
                             </div>
                         </form>
+<<<<<<< HEAD
                         
                         <!--     updating category-->
                        
@@ -74,6 +90,15 @@
                     
                     
             </div>
+=======
+                        </div>
+                        
+                        
+                        
+                    </div>
+                    
+                </div>
+>>>>>>> 9c2b4a7d3f3db2da7b2e1c2ae17e100f75f8348f
                 <!-- /.row -->
 
             </div>
@@ -83,4 +108,8 @@
         <!-- /#page-wrapper -->
 
 <!--   footer-->
+<<<<<<< HEAD
 <?php include "includes/admin_footer.php"; ?>
+=======
+<?php include "includes/footer.php"; ?>
+>>>>>>> 9c2b4a7d3f3db2da7b2e1c2ae17e100f75f8348f
